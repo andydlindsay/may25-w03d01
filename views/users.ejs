@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All of our Users</title>
+</head>
+<body>
+  <h2>All the users</h2>
+  <% for (const user of users) { %>
+    <h3><%= user.username %> is <%= user.age %> years old</h3>
+  <% } %>
+</body>
+</html>

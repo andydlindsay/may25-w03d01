@@ -1,11 +1,11 @@
 # W3D1 Web Servers 101
 
 ### To Do
-- [ ] Intro to Web Servers
-- [ ] Intro to Express
-- [ ] What is "Middleware?"
-- [ ] Custom Middleware
-- [ ] Server-side view templates with EJS
+- [x] Intro to Web Servers
+- [x] Intro to Express
+- [x] What is "Middleware?"
+- [x] Custom Middleware
+- [x] Server-side view templates with EJS
 
 ### Web Server
 * Servers serve resources: videos, photos, files
@@ -16,6 +16,9 @@
 * GET /users, POST /tweets
 * Choose a port: 65,535 to choose from
 * Request and response
+
+### Middleware
+* Functions in between the request and the response
 
 
 
